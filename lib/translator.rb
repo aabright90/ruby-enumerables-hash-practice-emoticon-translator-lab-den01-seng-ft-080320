@@ -21,8 +21,8 @@ def get_japanese_emoticon(file_path)
   load_library(file_path)
   load_library(file_path).each do |key, value|
   end
+  binding.pry
 end
-binding.pry
 
 def get_english_meaning
   # code goes here
