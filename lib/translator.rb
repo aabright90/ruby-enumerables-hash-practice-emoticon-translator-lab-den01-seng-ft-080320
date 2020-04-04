@@ -20,7 +20,8 @@ def get_japanese_emoticon(file_path, emoticon)
   # code goes here
   load_library(file_path)
   load_library(file_path).each do |meaning, emoticons|
-
+    binding.pry
+    if emoticon
   end
 end
 
