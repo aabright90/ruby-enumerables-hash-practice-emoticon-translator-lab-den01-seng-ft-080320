@@ -19,10 +19,10 @@ end
 def get_japanese_emoticon
   # code goes here
   load_library(file_path)
-  binding.pry
   load_library(file_path).each do |key, value|
   end
 end
+binding.pry
 
 def get_english_meaning
   # code goes here
